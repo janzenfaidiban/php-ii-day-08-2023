@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body class="bg-blue-800">
+
+        <!-- .container start -->
+        <div class="container mx-auto bg-gray-100 p-4 m-4 shadow rounded">
+
+            <!-- nav start -->
+            <div>
+                <a href="read.html" class="bg-blue-900 text-white py-2 px-3 rounded shadow mr-2">
+                    <i class="fa-solid fa-arrow-left mr-1"></i>
+                    Back to read
+                </a>
+            </div>
+            <!-- nav end -->
+
+            <!-- heading start -->
+            <div>
+                <h1 class="text-4xl font-bold my-3">Update</h1>
+            </div>
+            <!-- heading end -->
+
+            <!-- content start -->
+            <div>
+                
+                <!-- form start -->
+                <form action="read.html" method="">
+
+                    <div class="mb-3">
+                        <label for="complete-name">Complete name</label>
+                        <input type="text" id="complete-name" name="complete-name" class="border rounded shadow p-2 block w-1/3" value="Yekson Bagau">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email-address">Email address</label>
+                        <input type="email" id="email-address" name="email-address" class="border rounded shadow p-2 block w-1/3" value="y.bagau@sagufoundation.org">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phone-number">Phone number</label>
+                        <input type="tel" id="phone-number" name="phone-number" class="border rounded shadow p-2 block w-1/3" value="+62821123456789">
+                    </div>
+
+                    <div class="mb-3">
+                        <button type="submit" class="border rounded shadow p-2 bg-green-700 text-white">Tambah</button>
+                        <button type="reset" class="border rounded shadow p-2 bg-gray-700 text-white">Batal</button>
+                    </div>
+
+                </form>
+                <!-- form end -->
+
+            </div>
+            <!-- content end -->
+        
+        </div>
+        <!-- .container end -->
+        
+        
+
+    </body>
+</html>
